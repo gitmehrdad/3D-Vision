@@ -10,4 +10,5 @@ The main goals are to:
  2. Find the Intrinsic Matrix: This matrix contains the camera's internal parameters:
 	 - Focal Length (fx, fy): How strongly the camera converges light.
 	 - Optical Center (cx, cy): The point where the "principal ray" hits the image sensor. It's often close to, but not exactly, the center of the image.
+
 We want to calibrate two cameras that are streaming over RTSP.
