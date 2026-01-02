@@ -61,19 +61,19 @@ Run:
 
 ```bash
 python Capture.py
+```
 
+A window will display the live camera feed.
 
-A window will show the live camera feed.
+Press `c` to capture and save a frame.
 
-Press c to capture and save a frame.
+Press `q` to quit the capture phase.
 
-Press q to exit the capture phase.
-
-Images are saved in the calibration_images/ directory.
+Captured images are saved in the `calibration_images/` directory.
 
 Image Capture Guidelines
 
-During capture, move the checkerboard as follows:
+While capturing images, move the checkerboard as follows:
 
 Vary the Angle
 Tilt the board forward, backward, left, and right.
@@ -82,10 +82,10 @@ Vary the Distance
 Capture images with the board both close to and far from the camera.
 
 Cover the Edges
-Include images where the checkerboard appears near the corners and edges of the frame.
+Capture images where the checkerboard appears near the corners and edges of the frame.
 
 Keep It Sharp
-Ensure the checkerboard is in focus and not blurred by motion.
+Ensure the checkerboard is in focus and not blurred due to motion.
 
 Step 5: Run Calibration
 
