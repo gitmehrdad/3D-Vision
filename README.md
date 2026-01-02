@@ -40,7 +40,7 @@ We calibrate **two cameras streaming over RTSP** using a checkerboard pattern.
 ### Step 1: Prepare the Checkerboard
 
 - Download a checkerboard pattern and print it on a **flat, rigid surface**.
-- We used a **7 × 5** inner-corner checkerboard.
+- We used a **6 × 4** inner-corner checkerboard.
 
 ### Step 2: Measure Square Size
 
