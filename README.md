@@ -63,13 +63,13 @@ Run:
 python Capture.py
 ```
 
-A window will display the live camera feed.
+- A window will display the live camera feed.
 
-Press `c` to capture and save a frame.
+- Press `c` to capture and save a frame.
 
-Press `q` to quit the capture phase.
+- Press `q` to quit the capture phase.
 
-Captured images are saved in the `calibration_images/` directory.
+- Captured images are saved in the `calibration_images/` directory.
 
 Image Capture Guidelines
 
