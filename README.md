@@ -115,7 +115,7 @@ The calibration process generates:
 
 Each file contains:
 
-- `camera_matrix` — the intrinsic camera matrix 𝐾
+- `camera_matrix` — the intrinsic camera matrix K
 
 - `dist_coeffs` — lens distortion parameters
 
