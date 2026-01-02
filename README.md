@@ -71,28 +71,29 @@ python Capture.py
 
 - Captured images are saved in the `calibration_images/` directory.
 
-Image Capture Guidelines
+### Image Capture Guidelines
 
 While capturing images, move the checkerboard as follows:
 
-Vary the Angle
+- Vary the Angle
 Tilt the board forward, backward, left, and right.
 
-Vary the Distance
+- Vary the Distance
 Capture images with the board both close to and far from the camera.
 
-Cover the Edges
+- Cover the Edges
 Capture images where the checkerboard appears near the corners and edges of the frame.
 
-Keep It Sharp
+- Keep It Sharp
 Ensure the checkerboard is in focus and not blurred due to motion.
 
-Step 5: Run Calibration
+### Step 5: Run Calibration
 
 Run:
 
+```bash
 python Calibrate.py
-
+```
 
 The script automatically loads images from calibration_images/.
 
