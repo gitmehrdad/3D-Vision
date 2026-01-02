@@ -71,7 +71,7 @@ python Capture.py
 
 - Captured images are saved in the `calibration_images/` directory.
 
-### Image Capture Guidelines
+#### Image Capture Guidelines
 
 While capturing images, move the checkerboard as follows:
 
@@ -95,13 +95,13 @@ Run:
 python Calibrate.py
 ```
 
-The script automatically loads images from calibration_images/.
+The script automatically loads images from `calibration_images/`.
 
 It detects checkerboard corners and computes:
 
-Camera intrinsic matrix
+- Camera intrinsic matrix
 
-Distortion coefficients
+- Distortion coefficients
 
 Results are printed to the terminal and saved to disk.
 
@@ -109,16 +109,14 @@ Output Files
 
 The calibration process generates:
 
-camera1_calibration_data.npz
+- `camera1_calibration_data.npz`
 
-camera2_calibration_data.npz
+- `camera2_calibration_data.npz`
 
 Each file contains:
 
-camera_matrix — the intrinsic camera matrix 
-𝐾
-K
+- `camera_matrix` — the intrinsic camera matrix 𝐾
 
-dist_coeffs — lens distortion parameters
+- `dist_coeffs` — lens distortion parameters
 
 These files can be loaded in other Python scripts to undistort live RTSP video streams in real time.
