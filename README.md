@@ -61,3 +61,63 @@ Run:
 
 ```bash
 python Capture.py
+
+
+A window will show the live camera feed.
+
+Press c to capture and save a frame.
+
+Press q to exit the capture phase.
+
+Images are saved in the calibration_images/ directory.
+
+Image Capture Guidelines
+
+During capture, move the checkerboard as follows:
+
+Vary the Angle
+Tilt the board forward, backward, left, and right.
+
+Vary the Distance
+Capture images with the board both close to and far from the camera.
+
+Cover the Edges
+Include images where the checkerboard appears near the corners and edges of the frame.
+
+Keep It Sharp
+Ensure the checkerboard is in focus and not blurred by motion.
+
+Step 5: Run Calibration
+
+Run:
+
+python Calibrate.py
+
+
+The script automatically loads images from calibration_images/.
+
+It detects checkerboard corners and computes:
+
+Camera intrinsic matrix
+
+Distortion coefficients
+
+Results are printed to the terminal and saved to disk.
+
+Output Files
+
+The calibration process generates:
+
+camera1_calibration_data.npz
+
+camera2_calibration_data.npz
+
+Each file contains:
+
+camera_matrix — the intrinsic camera matrix 
+𝐾
+K
+
+dist_coeffs — lens distortion parameters
+
+These files can be loaded in other Python scripts to undistort live RTSP video streams in real time.
